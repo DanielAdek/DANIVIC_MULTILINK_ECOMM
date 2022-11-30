@@ -1,9 +1,13 @@
 import './App.css';
+
+import { Fragment } from 'react';
+import { LoginPage } from './pages/login.page';
+
 function App() {
   return (
-    <div>
-
-    </div>
+    <Fragment>
+      <LoginPage />
+    </Fragment>
   );
 }
 
