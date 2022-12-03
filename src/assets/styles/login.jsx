@@ -11,6 +11,10 @@ export const LeftContainer = Style.div`
    background-position: left 40%;
   background-repeat: no-repeat;
   height: 100vh;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 export const RightContainer = Style.div`
   flex:1;
